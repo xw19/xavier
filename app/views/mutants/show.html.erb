@@ -1,0 +1,13 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Name:</strong>
+  <%= @mutant.name %>
+</p>
+
+<p>
+  <strong>Group:</strong>
+  <%= @mutant.group.name %>
+</p>
+<%= link_to 'Edit', edit_mutant_path(@mutant) %> |
+<%= link_to 'Back', mutants_path %>
